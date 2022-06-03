@@ -1,0 +1,8 @@
+N1=float(input('digite a nota 1 \n'))
+P1=float(input('digite o peso \n'))
+N2=float(input('digite a nota 2 \n'))
+P2=float(input('digite o peso \n'))
+N3=float(input('digite a nota 3 \n'))
+P3=float(input('digite o peso \n'))
+T=((N1*P1)+(N2*P2)+(N3*P3))/(P1+P2+P3)
+print(f'a nota final é {T}')

@@ -1,0 +1,10 @@
+A=float(input())
+B=float(input())
+adi=A+B
+sub=A-B
+div=A/B
+mul=A*B
+print(adi)
+print(sub)
+print(div)
+print(mul)
