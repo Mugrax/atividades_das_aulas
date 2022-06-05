@@ -1,4 +1,3 @@
-from math import radians
 from random import randint
 a=int(input('digite um número:\n'))
 b=int(input('digite um número:\n'))

@@ -3,7 +3,9 @@ M=int(input('digite os meses:\n'))
 A=int(input('digite os anos:\n'))
 AR=A/4%1
 if AR==0:
-    if M==1 or M==3 or M==5 or M==7 or M==8 or M==10:
+    if A>2022:
+        print('data inválida')
+    elif M==1 or M==3 or M==5 or M==7 or M==8 or M==10:
         if D in range(1,30):
             D+=1
             print(f'{D}/{M}/{A}') 

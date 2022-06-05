@@ -19,4 +19,4 @@ percentual*=20
 print(f'média de salário:R${round(media_salario,2)}')
 print(f'média de filhos:{media_filhos}')
 print(f'maior salário:R${maior_salario}')
-print(f'percentual de pessoas com salário maior que R$2000:{percentual}%')
+print(f'percentual de pessoas com salário até que R$2000:{percentual}%')

@@ -1,7 +1,3 @@
-from distutils.log import error
-from urllib import response
-
-
 temperatura=float(input('digite a temperatura:\n'))
 escolha=int(input('digite 1 ou 2 para:\n1-Converter celsius em Fahrenheit\n2-Converter Fahrenheit em Celsius\n'))
 if escolha==1:
