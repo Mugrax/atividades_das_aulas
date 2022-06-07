@@ -1,5 +1,7 @@
+S=1
 n=int(input('digite um numero inteiro:\n'))
-lista=[1]
-for i in range(2,n+1):
-    lista+=[i]
-print(lista)
+for i in range(2,n):
+    variavel_N=i-1
+    m=i+variavel_N
+    S+=i/m
+    print(f'S={round(S,2)}')
