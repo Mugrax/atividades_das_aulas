@@ -25,4 +25,3 @@ quantidade_m_ac=lista_mulher_acima.count()
 quantidade_m_ab= lista_mulher_abaixo.count()
 print(f'A {quantidade_m_ac} de mulheres acima da média de altura e {quantidade_m_ab} abaixo dessa média.')
 print(f'A {quantidade_h_ac} de homens acima da média de altura e {quantidade_h_ab} abaixo dessa média.')
-
