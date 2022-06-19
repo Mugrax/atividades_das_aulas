@@ -1,8 +1,10 @@
-
 from funçoes_dados import conversor_discionario
 
 arquivo='compras.csv'
 lista=conversor_discionario(arquivo,',')
+
+#quem foi a pessoa que mais gastou?
+
 
 maior_valor=0
 indice=len(lista)

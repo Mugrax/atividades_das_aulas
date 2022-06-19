@@ -4,7 +4,7 @@ from funçoes_dados import conversor_discionario
 arquivo='compras.csv'
 lista=conversor_discionario(arquivo,',')
 
-#qual foi o gasto por ano
+#qual foi o gasto por ano?
 
 quantidade_da_lista=len(lista)
 
@@ -155,4 +155,4 @@ print(f'Gasto do ano de 2018:\nR${round(gasto_anual_18,2)}\n')
 print(f'Gasto do ano de 2019:\nR${round(gasto_anual_19,2)}\n')
 print(f'Gasto do ano de 2020:\nR${round(gasto_anual_20,2)}\n')
 
-print(f'Gasto total por ano:R${round(gasto_total_por_ano,2)}\n')
+print(f'Gasto média total por ano:R${round(gasto_total_por_ano,2)}\n')

@@ -1,4 +1,4 @@
-import csv
+
 from funçoes_dados import conversor_discionario
 
 arquivo='compras.csv'

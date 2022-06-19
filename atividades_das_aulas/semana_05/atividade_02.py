@@ -2,8 +2,12 @@ from funçoes_dados import conversor_discionario
 
 arquivo='compras.csv'
 lista=conversor_discionario(arquivo,',')
+
+#qual sao os anos da base de dados?
+
 indice=len(lista)
 anos=[]
+
 for i in range(indice):
     ano=lista[i]['ano']
     indice_anos=len(anos)
@@ -17,6 +21,5 @@ for i in range(indice):
 
 anos.sort()
         
-
 print(f'do ano {anos[0]} ao ano {anos[indice_anos-1]}\n')        
 print (f'esses foram os anos \n{anos}')

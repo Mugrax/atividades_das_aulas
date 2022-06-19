@@ -4,7 +4,7 @@ from funçoes_dados import conversor_discionario
 arquivo='compras.csv'
 lista=conversor_discionario(arquivo,',')
 
-#qual foi o gasto por ano
+#qual foi o maior gasto por ano?
 
 quantidade_da_lista=len(lista)
 
@@ -191,37 +191,37 @@ for num,i in enumerate(range(quantidade_de_anos)):
         maior_gasto_anual=lista_de_gastos_por_ano[i]
         numero=num
 
-if num==0:
+if numero==0:
     num_ano=2005
-elif num==1:
+elif numero==1:
     num_ano=2006
-elif num==2:
+elif numero==2:
     num_ano=2007
-elif num==3:
+elif numero==3:
     num_ano=2008
-elif num==4:
+elif numero==4:
     num_ano=2009
-elif num==5:
+elif numero==5:
     num_ano=2010
-elif num==6:
+elif numero==6:
     num_ano=2011
-elif num==7:
+elif numero==7:
     num_ano=2012
-elif num==8:
+elif numero==8:
     num_ano=2013
-elif num==9:
+elif numero==9:
     num_ano=2014
-elif num==10:
+elif numero==10:
     num_ano=2015
-elif num==11:
+elif numero==11:
     num_ano=2016
-elif num==12:
+elif numero==12:
     num_ano=2017
-elif num==13:
+elif numero==13:
     num_ano=2018
-elif num==14:
+elif numero==14:
     num_ano=2019
-elif num==15:
+elif numero==15:
     num_ano=2020
-
+print()
 print(f'O ano com maior gasto foi {num_ano}\nCom o valor de:R${round(maior_gasto_anual,2)}')

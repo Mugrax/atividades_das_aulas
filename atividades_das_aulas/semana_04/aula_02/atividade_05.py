@@ -3,6 +3,7 @@ from random import randint
 
 def gerador_quadrado():
     quadrado=[[randint(1,9) for i in range(3)]for i in range(3)]
+    quadrado[1].index(5)
     return quadrado
     
 def verificacao_soma(quadrado):
@@ -20,7 +21,7 @@ def verificacao_soma(quadrado):
     print(quadrado)
     if diagonal_1==diagonal_2:
         if linha_1==linha_2 and linha_1==linha_3:
-            if coluna_1==coluna_2 and coluna_1==coluna_3:
+            if coluna_1==coluna_2 and coluna_1==coluna_3 or x==0:
                 print(quadrado)
                 return 'vc obteve um quadrado magico'
             else:
@@ -32,6 +33,7 @@ def verificacao_soma(quadrado):
     else:
         print(quadrado)
         return verificacao_soma(gerador_quadrado())
-
+#quadrado=[[8,3,4],[1,5,9],[6,7,2]]
+x=20000
 y=verificacao_soma(gerador_quadrado())
 print(y)

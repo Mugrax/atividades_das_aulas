@@ -17,5 +17,6 @@ def quadro(linhas,colunas):
     linha*=linhas
     quadro=coluna+linha+coluna
     return quadro
-x=quadro(20,20)
+x=quadro(5,20)
 print(x)
+print('+--------------------+')
