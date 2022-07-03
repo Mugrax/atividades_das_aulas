@@ -1,6 +1,6 @@
 class tamagochi:
 
-    def __init__(self,nome,fome,saude,idade)
+    def __init__(self,nome,fome,saude,idade):
         self.nome = nome
         self.fome = fome
         self.saude = saude
